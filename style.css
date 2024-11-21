@@ -111,7 +111,7 @@ nav h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 28px;
+  padding: 0px 10px;
   margin-top: 90px;
 }
 .page2-content1 h2 {
@@ -120,19 +120,19 @@ nav h4 {
   font-size: 27px;
 }
 .line {
-  width: 96.1%;
+  width: 96%;
   height: 1px;
   background-color: black;
-  margin-left: 32px;
+margin-left: 2%;
   margin-top: 18px;
 }
 .tareef {
-  padding: 0px 26px;
-  margin-top: 20px;
+  padding: 0px 20px;
+  margin-top: 10px;
   text-align: center;
 }
 .tareef h3 {
-  font-size: 63px;
+  font-size: 50px;
   color: black;
   font-weight: 300;
 }
@@ -150,7 +150,7 @@ nav h4 {
   justify-content: space-between;
   flex-direction: column;
   padding: 5px 5px;
-  margin-top: 200px;
+  margin-top: 70px;
 }
 .exploreservice h3 {
   color: black;
@@ -186,7 +186,6 @@ nav h4 {
 .page3 .box {
   width: 32%;
   height: 86%;
-  background-color: red;
   position: relative;
 }
 .box video {
@@ -199,6 +198,7 @@ nav h4 {
   position: absolute;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   object-fit: cover;
   transition: all linear 0.6s;
 }
@@ -246,9 +246,8 @@ nav h4 {
 
 .page4 .quality {
   width: 93%;
-  padding: 25px 5px;
   border-bottom: 1px solid black;
-  gap: 10px;
+ padding-bottom: 20px;
 }
 .quality h1 {
   color: black;
@@ -256,14 +255,14 @@ nav h4 {
 }
 .qualitydes {
   width: 100%;
-  margin-top: 10px;
+  padding: 2px 20px;
 }
 .qualitydes h2 {
   color: black;
-  margin-left: 50px;
   font-size: 52px;
-  font-weight: 300;
-  text-align: start;
+  font-weight: 500;
+  text-align:center;
+
 }
 
 .page5 {
@@ -277,7 +276,6 @@ nav h4 {
 }
 .page5 .playline {
   width: 100%;
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,7 +330,6 @@ nav h4 {
 .swiperdiv {
   width: 100%;
   height: 60vh;
-  margin-bottom: -20px;
   color: black;
 }
 .swiper {
@@ -354,4 +351,54 @@ nav h4 {
   display: block;
   width: 20%;
   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  nav h3{
+  font-size: 20px;
+  }
+  
+nav h4{
+  font-size: 20px;
+}
+
+.page2-content1 h2{
+font-size: 16px;
+}
+
+.tareef h3{
+  font-size: 22px;
+}
+.exploreservice h2{
+  font-size: 45px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+.quality h1{
+  font-size: 20px;
+}
+.qualitydes h2{
+  font-size: 20px;
+}
+
+
+.strategy h1{
+  font-size: 25px;
+}
+.data h2{
+  font-size: 26px;
+}
+
+.page6 .touch h1{
+  font-size: 50px;
+}
+.page6 .touch h4{
+  font-size: 20px;
+}
+.swiperdiv{
+  height: 14vh;
+}
+
+
+
 }
